@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  AnimationCollection
+//
+//  Created by 李明锋 on 2017/4/14.
+//  Copyright © 2017年 limingfeng. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "HPUITools.h"
+#import <UIKit/UIKit.h>
+#import "hong.h"
+#import "SuperViewController.h"
+#import "UIView+Additions.h"
+
+#endif /* PrefixHeader_pch */

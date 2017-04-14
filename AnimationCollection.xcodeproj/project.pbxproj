@@ -16,6 +16,17 @@
 		4E2960631EA062E800BA1E16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E2960611EA062E800BA1E16 /* LaunchScreen.storyboard */; };
 		4E29606E1EA062E900BA1E16 /* AnimationCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E29606D1EA062E900BA1E16 /* AnimationCollectionTests.m */; };
 		4E2960791EA062E900BA1E16 /* AnimationCollectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2960781EA062E900BA1E16 /* AnimationCollectionUITests.m */; };
+		4E29608C1EA0745300BA1E16 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E29608B1EA0745300BA1E16 /* MainViewController.m */; };
+		4E29608F1EA074BD00BA1E16 /* MainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E29608E1EA074BD00BA1E16 /* MainCell.m */; };
+		4E2960921EA074DA00BA1E16 /* MainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2960911EA074DA00BA1E16 /* MainModel.m */; };
+		4E2960961EA0778E00BA1E16 /* HPUITools.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2960951EA0778E00BA1E16 /* HPUITools.m */; };
+		4E29609C1EA07ADA00BA1E16 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E29609B1EA07ADA00BA1E16 /* MainView.m */; };
+		4E29609F1EA082B400BA1E16 /* FreeDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E29609E1EA082B400BA1E16 /* FreeDownViewController.m */; };
+		4E2960A21EA082DD00BA1E16 /* LoadRateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2960A11EA082DD00BA1E16 /* LoadRateViewController.m */; };
+		4E2960A51EA082FD00BA1E16 /* SuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2960A41EA082FD00BA1E16 /* SuperViewController.m */; };
+		4E2960A81EA0842800BA1E16 /* PromtViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2960A71EA0842800BA1E16 /* PromtViewController.m */; };
+		4E2960AC1EA09F6D00BA1E16 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2960AB1EA09F6D00BA1E16 /* UIView+Additions.m */; };
+		4E2960AF1EA0C7D200BA1E16 /* FreeDownAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2960AE1EA0C7D200BA1E16 /* FreeDownAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +65,30 @@
 		4E2960741EA062E900BA1E16 /* AnimationCollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationCollectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E2960781EA062E900BA1E16 /* AnimationCollectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationCollectionUITests.m; sourceTree = "<group>"; };
 		4E29607A1EA062E900BA1E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E29608A1EA0745300BA1E16 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4E29608B1EA0745300BA1E16 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		4E29608D1EA074BD00BA1E16 /* MainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCell.h; sourceTree = "<group>"; };
+		4E29608E1EA074BD00BA1E16 /* MainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCell.m; sourceTree = "<group>"; };
+		4E2960901EA074DA00BA1E16 /* MainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainModel.h; sourceTree = "<group>"; };
+		4E2960911EA074DA00BA1E16 /* MainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainModel.m; sourceTree = "<group>"; };
+		4E2960941EA0778E00BA1E16 /* HPUITools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPUITools.h; sourceTree = "<group>"; };
+		4E2960951EA0778E00BA1E16 /* HPUITools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPUITools.m; sourceTree = "<group>"; };
+		4E2960971EA077AF00BA1E16 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4E2960991EA0793100BA1E16 /* hong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hong.h; sourceTree = "<group>"; };
+		4E29609A1EA07ADA00BA1E16 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		4E29609B1EA07ADA00BA1E16 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		4E29609D1EA082B400BA1E16 /* FreeDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeDownViewController.h; sourceTree = "<group>"; };
+		4E29609E1EA082B400BA1E16 /* FreeDownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreeDownViewController.m; sourceTree = "<group>"; };
+		4E2960A01EA082DD00BA1E16 /* LoadRateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadRateViewController.h; sourceTree = "<group>"; };
+		4E2960A11EA082DD00BA1E16 /* LoadRateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadRateViewController.m; sourceTree = "<group>"; };
+		4E2960A31EA082FD00BA1E16 /* SuperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperViewController.h; sourceTree = "<group>"; };
+		4E2960A41EA082FD00BA1E16 /* SuperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperViewController.m; sourceTree = "<group>"; };
+		4E2960A61EA0842800BA1E16 /* PromtViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PromtViewController.h; sourceTree = "<group>"; };
+		4E2960A71EA0842800BA1E16 /* PromtViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PromtViewController.m; sourceTree = "<group>"; };
+		4E2960AA1EA09F6D00BA1E16 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		4E2960AB1EA09F6D00BA1E16 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		4E2960AD1EA0C7D200BA1E16 /* FreeDownAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeDownAnimation.h; sourceTree = "<group>"; };
+		4E2960AE1EA0C7D200BA1E16 /* FreeDownAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreeDownAnimation.m; sourceTree = "<group>"; };
 		61BF6EB0420998ECDE6C7E2D /* Pods-AnimationCollection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationCollection.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnimationCollection/Pods-AnimationCollection.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +143,12 @@
 		4E2960521EA062E800BA1E16 /* AnimationCollection */ = {
 			isa = PBXGroup;
 			children = (
+				4E2960A91EA09F5600BA1E16 /* Category */,
+				4E2960931EA0775600BA1E16 /* UITools */,
+				4E2960871EA073FE00BA1E16 /* viewControllers */,
+				4E2960861EA073FE00BA1E16 /* models */,
+				4E2960881EA073FE00BA1E16 /* views */,
+				4E2960891EA0742D00BA1E16 /* MainViewController */,
 				4E2960561EA062E800BA1E16 /* AppDelegate.h */,
 				4E2960571EA062E800BA1E16 /* AppDelegate.m */,
 				4E2960591EA062E800BA1E16 /* ViewController.h */,
@@ -124,7 +165,9 @@
 		4E2960531EA062E800BA1E16 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4E2960981EA0791E00BA1E16 /* ExtraFile */,
 				4E2960541EA062E800BA1E16 /* main.m */,
+				4E2960971EA077AF00BA1E16 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -145,6 +188,78 @@
 				4E29607A1EA062E900BA1E16 /* Info.plist */,
 			);
 			path = AnimationCollectionUITests;
+			sourceTree = "<group>";
+		};
+		4E2960861EA073FE00BA1E16 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		4E2960871EA073FE00BA1E16 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4E2960A31EA082FD00BA1E16 /* SuperViewController.h */,
+				4E2960A41EA082FD00BA1E16 /* SuperViewController.m */,
+				4E29609D1EA082B400BA1E16 /* FreeDownViewController.h */,
+				4E29609E1EA082B400BA1E16 /* FreeDownViewController.m */,
+				4E2960A01EA082DD00BA1E16 /* LoadRateViewController.h */,
+				4E2960A11EA082DD00BA1E16 /* LoadRateViewController.m */,
+				4E2960A61EA0842800BA1E16 /* PromtViewController.h */,
+				4E2960A71EA0842800BA1E16 /* PromtViewController.m */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		4E2960881EA073FE00BA1E16 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				4E2960AD1EA0C7D200BA1E16 /* FreeDownAnimation.h */,
+				4E2960AE1EA0C7D200BA1E16 /* FreeDownAnimation.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		4E2960891EA0742D00BA1E16 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4E29608A1EA0745300BA1E16 /* MainViewController.h */,
+				4E29608B1EA0745300BA1E16 /* MainViewController.m */,
+				4E29609A1EA07ADA00BA1E16 /* MainView.h */,
+				4E29609B1EA07ADA00BA1E16 /* MainView.m */,
+				4E29608D1EA074BD00BA1E16 /* MainCell.h */,
+				4E29608E1EA074BD00BA1E16 /* MainCell.m */,
+				4E2960901EA074DA00BA1E16 /* MainModel.h */,
+				4E2960911EA074DA00BA1E16 /* MainModel.m */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		4E2960931EA0775600BA1E16 /* UITools */ = {
+			isa = PBXGroup;
+			children = (
+				4E2960941EA0778E00BA1E16 /* HPUITools.h */,
+				4E2960951EA0778E00BA1E16 /* HPUITools.m */,
+			);
+			path = UITools;
+			sourceTree = "<group>";
+		};
+		4E2960981EA0791E00BA1E16 /* ExtraFile */ = {
+			isa = PBXGroup;
+			children = (
+				4E2960991EA0793100BA1E16 /* hong.h */,
+			);
+			path = ExtraFile;
+			sourceTree = "<group>";
+		};
+		4E2960A91EA09F5600BA1E16 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4E2960AA1EA09F6D00BA1E16 /* UIView+Additions.h */,
+				4E2960AB1EA09F6D00BA1E16 /* UIView+Additions.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		82091DC4485705269B5D9E90 /* Pods */ = {
@@ -348,9 +463,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E2960AF1EA0C7D200BA1E16 /* FreeDownAnimation.m in Sources */,
+				4E2960A51EA082FD00BA1E16 /* SuperViewController.m in Sources */,
+				4E2960A81EA0842800BA1E16 /* PromtViewController.m in Sources */,
+				4E29609F1EA082B400BA1E16 /* FreeDownViewController.m in Sources */,
+				4E29608F1EA074BD00BA1E16 /* MainCell.m in Sources */,
 				4E29605B1EA062E800BA1E16 /* ViewController.m in Sources */,
+				4E2960921EA074DA00BA1E16 /* MainModel.m in Sources */,
+				4E2960A21EA082DD00BA1E16 /* LoadRateViewController.m in Sources */,
 				4E2960581EA062E800BA1E16 /* AppDelegate.m in Sources */,
 				4E2960551EA062E800BA1E16 /* main.m in Sources */,
+				4E29609C1EA07ADA00BA1E16 /* MainView.m in Sources */,
+				4E29608C1EA0745300BA1E16 /* MainViewController.m in Sources */,
+				4E2960961EA0778E00BA1E16 /* HPUITools.m in Sources */,
+				4E2960AC1EA09F6D00BA1E16 /* UIView+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +628,7 @@
 			baseConfigurationReference = 39240291B5EB24E2A6A6ED80 /* Pods-AnimationCollection.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = AnimationCollection/PrefixHeader.pch;
 				INFOPLIST_FILE = AnimationCollection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = limingfeng.com.AnimationCollection;
@@ -514,6 +641,7 @@
 			baseConfigurationReference = 61BF6EB0420998ECDE6C7E2D /* Pods-AnimationCollection.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = AnimationCollection/PrefixHeader.pch;
 				INFOPLIST_FILE = AnimationCollection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = limingfeng.com.AnimationCollection;
@@ -586,6 +714,7 @@
 				4E29607F1EA062E900BA1E16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E2960801EA062E900BA1E16 /* Build configuration list for PBXNativeTarget "AnimationCollectionTests" */ = {
 			isa = XCConfigurationList;
@@ -594,6 +723,7 @@
 				4E2960821EA062E900BA1E16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E2960831EA062E900BA1E16 /* Build configuration list for PBXNativeTarget "AnimationCollectionUITests" */ = {
 			isa = XCConfigurationList;
@@ -602,6 +732,7 @@
 				4E2960851EA062E900BA1E16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
