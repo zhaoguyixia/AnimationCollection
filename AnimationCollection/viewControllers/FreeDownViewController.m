@@ -38,7 +38,7 @@
     self.imageView.top = 65;
     FreeDownAnimation *animate = [[FreeDownAnimation alloc] init];
     animate.delegate = self;
-    [animate freeDownAnimation:self.imageView andEndY:SCREENH];
+    [animate freeDownAnimation:self.imageView andEndY:SCREENH-200];
 }
 
 - (void)animationDidFinished

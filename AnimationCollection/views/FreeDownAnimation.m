@@ -17,6 +17,7 @@
     CGFloat centerH; //
     CGFloat subH;    //高度差
     NSTimer *timer;  //定时器
+    CGFloat viewEndBottom;//最终的y坐标
     UIView *animateView;
 }
 @end
@@ -41,6 +42,7 @@
 {
     animateView = view;
     startH = animateView.bottom;
+    viewEndBottom = endY;
     if (endY <= animateView.bottom)
     {
         NSLog(@"不符合自然规律，最终位置有误");
@@ -60,11 +62,11 @@
      要做自由落体运动，首先要确定一下几点：
      1.重力加速度，可以自定以一个重力加速度，在你的世界里，你就是王，可以随意修改自然法则。（不过通常用g=9.8m/s作为近似的加速度）
      2.起止坐标，确定y轴坐标就行了。
-     3.因为要模拟真实的自由落体运动，所以需要计算反弹的动能转化，不考虑空气阻力，假设撞击地面的能量损耗为撞地前的1/2，在这种条件下的自由落体运动，损耗可以自定义。
+     3.因为要模拟真实的自由落体运动，所以需要计算反弹的动能转化，不考虑空气阻力，假设撞击地面的能量损耗为撞地前的(1-FreeDownRate)，在这种条件下的自由落体运动，损耗可以自定义。
      4.动能公式：Ek = m*v*v/2;
      5.重力势能转化为动能：Ek = mgh;其中g=9.8m/s
      */
-    CGFloat endH = SCREENH;
+    CGFloat endH = viewEndBottom;
     //速度变化
     time += 0.01;
     //速度变化公式
