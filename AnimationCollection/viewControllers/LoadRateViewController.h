@@ -7,6 +7,7 @@
 //
 
 #import "SuperViewController.h"
+//#import <UIKit/UIKit.h>
 
 @interface LoadRateViewController : SuperViewController
 

@@ -32,6 +32,7 @@
         NSArray *array = @[
                            @"FreeDownViewController",
                            @"LoadRateViewController",
+                           @"KeyPathAnimationViewController",
                            @"PromtViewController"];
         for (NSString *str in array)
         {

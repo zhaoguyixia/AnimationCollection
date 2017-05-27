@@ -10,7 +10,6 @@
 #import "FreeDownAnimation.h"
 
 @interface FreeDownViewController ()<FreeDownAnimationDelegate>
-
 @property (nonatomic, strong) UIImageView *imageView;
 @end
 
