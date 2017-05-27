@@ -28,12 +28,12 @@
 {
     if (_dataSource == nil)
     {
-        _dataSource = [NSMutableArray array];
+        _dataSource    = [NSMutableArray array];
         NSArray *array = @[
                            @"FreeDownViewController",
                            @"LoadRateViewController",
                            @"KeyPathAnimationViewController",
-                           @"PromtViewController"];
+                           @"RegularPolygonViewController"];
         for (NSString *str in array)
         {
             MainModel *model = [[MainModel alloc] initWithString:str];
@@ -45,7 +45,7 @@
 
 - (void)handleUI
 {
-    self.mainView = [[MainView alloc] initWithFrame:CGRectMake(0, 0, SCREENW, SCREENH-64)];
+    self.mainView          = [[MainView alloc] initWithFrame:CGRectMake(0, 0, SCREENW, SCREENH-64)];
     self.mainView.delegate = self;
     [self.view addSubview:self.mainView];
     [self.mainView setData:self.dataSource];

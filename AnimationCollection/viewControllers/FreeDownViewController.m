@@ -24,8 +24,8 @@
 
 - (void)handleUI
 {
-    self.imageView = [HPUITools createImageView:CGRectMake(0, 65, 50, 50) andBackgroundImage:nil];
-    self.imageView.backgroundColor = [UIColor cyanColor];
+    self.imageView                    = [HPUITools createImageView:CGRectMake(0, 65, 50, 50) andBackgroundImage:nil];
+    self.imageView.backgroundColor    = [UIColor cyanColor];
     self.imageView.layer.cornerRadius = self.imageView.width/2.0;
     self.imageView.centerX = SCREENW/2.0;
     [self.view addSubview:self.imageView];
@@ -34,9 +34,9 @@
 - (void)startAnimate
 {
     [super startAnimate];
-    self.imageView.top = 65;
+    self.imageView.top         = 65;
     FreeDownAnimation *animate = [[FreeDownAnimation alloc] init];
-    animate.delegate = self;
+    animate.delegate           = self;
     [animate freeDownAnimation:self.imageView andEndY:SCREENH-200];
 }
 

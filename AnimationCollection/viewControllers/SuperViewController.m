@@ -17,8 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor whiteColor];
-    UIButton *rightBtn = [HPUITools createButton:CGRectMake(0, 0, 60, 44) andBackgroundColor:nil andImage:nil andTarget:self andAction:@selector(startAnimate) andTitleColor:[UIColor blackColor] andFont:17.0 andTitle:@"开始"];
+    self.view.backgroundColor              = [UIColor whiteColor];
+    UIButton *rightBtn                     = [HPUITools createButton:CGRectMake(0, 0, 60, 44) andBackgroundColor:nil andImage:nil andTarget:self andAction:@selector(startAnimate) andTitleColor:[UIColor blackColor] andFont:17.0 andTitle:@"开始"];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:rightBtn];
 }
 

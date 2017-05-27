@@ -25,7 +25,7 @@
 
 - (void)createUI
 {
-    self.label = [HPUITools createLabelWithFrame:CGRectMake(0, 0, SCREENW, 44) andBackgroundColor:nil andTextAlignment:NSTextAlignmentCenter andFont:17.0 andTextColor:[UIColor blackColor] andText:@"88"];
+    self.label   = [HPUITools createLabelWithFrame:CGRectMake(0, 0, SCREENW, 44) andBackgroundColor:nil andTextAlignment:NSTextAlignmentCenter andFont:17.0 andTextColor:[UIColor blackColor] andText:@"88"];
     [self.contentView addSubview:self.label];
     
     UIView *line = [HPUITools createView:CGRectMake(0, 43.5, SCREENW, 0.5) andBackgroundColor:[UIColor blackColor]];

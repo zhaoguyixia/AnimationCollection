@@ -24,13 +24,15 @@
 		4E29609F1EA082B400BA1E16 /* FreeDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E29609E1EA082B400BA1E16 /* FreeDownViewController.m */; };
 		4E2960A21EA082DD00BA1E16 /* LoadRateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2960A11EA082DD00BA1E16 /* LoadRateViewController.m */; };
 		4E2960A51EA082FD00BA1E16 /* SuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2960A41EA082FD00BA1E16 /* SuperViewController.m */; };
-		4E2960A81EA0842800BA1E16 /* PromtViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2960A71EA0842800BA1E16 /* PromtViewController.m */; };
 		4E2960AC1EA09F6D00BA1E16 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2960AB1EA09F6D00BA1E16 /* UIView+Additions.m */; };
 		4E2960AF1EA0C7D200BA1E16 /* FreeDownAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2960AE1EA0C7D200BA1E16 /* FreeDownAnimation.m */; };
 		4E2C63811ED92AED00662764 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2C63801ED92AED00662764 /* LoadingView.m */; };
 		4E2C63841ED9521F00662764 /* SecondLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2C63831ED9521F00662764 /* SecondLoadingView.m */; };
 		4E2C63871ED9577300662764 /* KeyPathAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2C63861ED9577300662764 /* KeyPathAnimationViewController.m */; };
 		4E2C638A1ED9579D00662764 /* KeyPathAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2C63891ED9579D00662764 /* KeyPathAnimationView.m */; };
+		4E2C638D1ED96AF000662764 /* RegularPolygonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2C638C1ED96AF000662764 /* RegularPolygonViewController.m */; };
+		4E2C63901ED96D8C00662764 /* RegularPolygonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2C638F1ED96D8C00662764 /* RegularPolygonView.m */; };
+		4E2C63931ED96DAB00662764 /* RegularPolygonPointFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2C63921ED96DAB00662764 /* RegularPolygonPointFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,8 +89,6 @@
 		4E2960A11EA082DD00BA1E16 /* LoadRateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadRateViewController.m; sourceTree = "<group>"; };
 		4E2960A31EA082FD00BA1E16 /* SuperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperViewController.h; sourceTree = "<group>"; };
 		4E2960A41EA082FD00BA1E16 /* SuperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperViewController.m; sourceTree = "<group>"; };
-		4E2960A61EA0842800BA1E16 /* PromtViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PromtViewController.h; sourceTree = "<group>"; };
-		4E2960A71EA0842800BA1E16 /* PromtViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PromtViewController.m; sourceTree = "<group>"; };
 		4E2960AA1EA09F6D00BA1E16 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
 		4E2960AB1EA09F6D00BA1E16 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
 		4E2960AD1EA0C7D200BA1E16 /* FreeDownAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeDownAnimation.h; sourceTree = "<group>"; };
@@ -101,6 +101,12 @@
 		4E2C63861ED9577300662764 /* KeyPathAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyPathAnimationViewController.m; sourceTree = "<group>"; };
 		4E2C63881ED9579D00662764 /* KeyPathAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyPathAnimationView.h; sourceTree = "<group>"; };
 		4E2C63891ED9579D00662764 /* KeyPathAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyPathAnimationView.m; sourceTree = "<group>"; };
+		4E2C638B1ED96AF000662764 /* RegularPolygonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularPolygonViewController.h; sourceTree = "<group>"; };
+		4E2C638C1ED96AF000662764 /* RegularPolygonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegularPolygonViewController.m; sourceTree = "<group>"; };
+		4E2C638E1ED96D8C00662764 /* RegularPolygonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularPolygonView.h; sourceTree = "<group>"; };
+		4E2C638F1ED96D8C00662764 /* RegularPolygonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegularPolygonView.m; sourceTree = "<group>"; };
+		4E2C63911ED96DAB00662764 /* RegularPolygonPointFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularPolygonPointFactory.h; sourceTree = "<group>"; };
+		4E2C63921ED96DAB00662764 /* RegularPolygonPointFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegularPolygonPointFactory.m; sourceTree = "<group>"; };
 		61BF6EB0420998ECDE6C7E2D /* Pods-AnimationCollection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationCollection.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnimationCollection/Pods-AnimationCollection.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -205,6 +211,8 @@
 		4E2960861EA073FE00BA1E16 /* models */ = {
 			isa = PBXGroup;
 			children = (
+				4E2C63911ED96DAB00662764 /* RegularPolygonPointFactory.h */,
+				4E2C63921ED96DAB00662764 /* RegularPolygonPointFactory.m */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -220,8 +228,8 @@
 				4E2960A11EA082DD00BA1E16 /* LoadRateViewController.m */,
 				4E2C63851ED9577300662764 /* KeyPathAnimationViewController.h */,
 				4E2C63861ED9577300662764 /* KeyPathAnimationViewController.m */,
-				4E2960A61EA0842800BA1E16 /* PromtViewController.h */,
-				4E2960A71EA0842800BA1E16 /* PromtViewController.m */,
+				4E2C638B1ED96AF000662764 /* RegularPolygonViewController.h */,
+				4E2C638C1ED96AF000662764 /* RegularPolygonViewController.m */,
 			);
 			path = viewControllers;
 			sourceTree = "<group>";
@@ -237,6 +245,8 @@
 				4E2C63831ED9521F00662764 /* SecondLoadingView.m */,
 				4E2C63881ED9579D00662764 /* KeyPathAnimationView.h */,
 				4E2C63891ED9579D00662764 /* KeyPathAnimationView.m */,
+				4E2C638E1ED96D8C00662764 /* RegularPolygonView.h */,
+				4E2C638F1ED96D8C00662764 /* RegularPolygonView.m */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -484,14 +494,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E2960AF1EA0C7D200BA1E16 /* FreeDownAnimation.m in Sources */,
+				4E2C63901ED96D8C00662764 /* RegularPolygonView.m in Sources */,
 				4E2C63811ED92AED00662764 /* LoadingView.m in Sources */,
+				4E2C63931ED96DAB00662764 /* RegularPolygonPointFactory.m in Sources */,
 				4E2960A51EA082FD00BA1E16 /* SuperViewController.m in Sources */,
 				4E2C63841ED9521F00662764 /* SecondLoadingView.m in Sources */,
-				4E2960A81EA0842800BA1E16 /* PromtViewController.m in Sources */,
 				4E2C63871ED9577300662764 /* KeyPathAnimationViewController.m in Sources */,
 				4E29609F1EA082B400BA1E16 /* FreeDownViewController.m in Sources */,
 				4E29608F1EA074BD00BA1E16 /* MainCell.m in Sources */,
 				4E29605B1EA062E800BA1E16 /* ViewController.m in Sources */,
+				4E2C638D1ED96AF000662764 /* RegularPolygonViewController.m in Sources */,
 				4E2960921EA074DA00BA1E16 /* MainModel.m in Sources */,
 				4E2C638A1ED9579D00662764 /* KeyPathAnimationView.m in Sources */,
 				4E2960A21EA082DD00BA1E16 /* LoadRateViewController.m in Sources */,

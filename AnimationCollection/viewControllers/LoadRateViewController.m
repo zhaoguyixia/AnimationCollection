@@ -25,7 +25,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.title = @"进度条";
+    self.title                = @"进度条";
     self.view.backgroundColor = [UIColor blackColor];
     [self handleUI];
 }
@@ -33,16 +33,16 @@
 - (void)handleUI
 {
     
-    self.loadingView = [[LoadingView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
-    self.loadingView.center = self.view.center;
+    self.loadingView            = [[LoadingView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    self.loadingView.center     = self.view.center;
     [self.view addSubview:self.loadingView];
     
-    self.secondLoadView = [[SecondLoadingView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    self.secondLoadView         = [[SecondLoadingView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
     self.secondLoadView.centerX = SCREENW/2.0;
-    self.secondLoadView.top = self.loadingView.bottom + 50;
+    self.secondLoadView.top     = self.loadingView.bottom + 50;
     [self.view addSubview:self.secondLoadView];
 }
-//
+
 - (void)initTimer
 {
     if (timer == nil)
@@ -54,7 +54,6 @@
 
 - (void)startAnimate
 {
-//    [super startAnimate];
     [self initTimer];
     [self.secondLoadView startAnimation];
 }
@@ -62,7 +61,7 @@
 - (void)startLoad
 {
     progress += 0.01;
-    NSLog(@"%g", progress);
+    //百分之百的时候，因为曲线终点处是圆滑的，所以不会合拢，故使用101%
     if (progress <= 1.01)
     {
         self.loadingView.progress = progress;

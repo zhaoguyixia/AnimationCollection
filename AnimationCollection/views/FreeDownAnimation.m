@@ -40,15 +40,15 @@
 
 - (void)freeDownAnimation:(UIView *)view andEndY:(CGFloat)endY
 {
-    animateView = view;
-    startH = animateView.bottom;
+    animateView   = view;
+    startH        = animateView.bottom;
     viewEndBottom = endY;
     if (endY <= animateView.bottom)
     {
         NSLog(@"不符合自然规律，最终位置有误");
         return;
     }
-    subH = endY - animateView.bottom;
+    subH      = endY - animateView.bottom;
     if (timer == nil)
     {
         timer = [NSTimer scheduledTimerWithTimeInterval:0.001 target:self selector:@selector(start) userInfo:nil repeats:YES];
@@ -66,20 +66,20 @@
      4.动能公式：Ek = m*v*v/2;
      5.重力势能转化为动能：Ek = mgh;其中g=9.8m/s
      */
-    CGFloat endH = viewEndBottom;
+    CGFloat endH           = viewEndBottom;
     //速度变化
-    time += 0.01;
+    time                   += 0.01;
     //速度变化公式
     //    CGFloat endV = startV + time*g;
     //位移公式
-    CGFloat endBottom = startV*time+(g*time*time)/2.0+startH;
-    animateView.bottom = endBottom;
+    CGFloat endBottom      = startV*time+(g*time*time)/2.0+startH;
+    animateView.bottom     = endBottom;
     if (animateView.bottom >= endH)
     {
-        subH = subH*FreeDownRate;
-        startV = -sqrtf(g*subH*2);
-        time = 0;
-        startH = animateView.bottom;
+        subH       = subH*FreeDownRate;
+        startV     = -sqrtf(g*subH*2);
+        time       = 0;
+        startH     = animateView.bottom;
         if (startV == 0)
         {
             if ([self.delegate respondsToSelector:@selector(animationDidFinished)])
@@ -87,7 +87,7 @@
                 [_delegate animationDidFinished];
             }
             [timer invalidate];
-            timer = nil;
+            timer  = nil;
         }
         return;
     }
