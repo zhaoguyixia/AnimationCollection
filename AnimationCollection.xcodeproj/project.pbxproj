@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C4E1D8514BB84A8000CACE8 /* libPods-AnimationCollection.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E2E5897D2ECA3BB68FB3BC1 /* libPods-AnimationCollection.a */; };
 		4E2960551EA062E800BA1E16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2960541EA062E800BA1E16 /* main.m */; };
 		4E2960581EA062E800BA1E16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2960571EA062E800BA1E16 /* AppDelegate.m */; };
 		4E29605B1EA062E800BA1E16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E29605A1EA062E800BA1E16 /* ViewController.m */; };
@@ -26,6 +25,16 @@
 		4E2960A51EA082FD00BA1E16 /* SuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2960A41EA082FD00BA1E16 /* SuperViewController.m */; };
 		4E2960AC1EA09F6D00BA1E16 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2960AB1EA09F6D00BA1E16 /* UIView+Additions.m */; };
 		4E2960AF1EA0C7D200BA1E16 /* FreeDownAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2960AE1EA0C7D200BA1E16 /* FreeDownAnimation.m */; };
+		4E2A11912155CD1B008F9783 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2A11902155CD1B008F9783 /* MobileCoreServices.framework */; };
+		4E2A11932155CD24008F9783 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2A11922155CD24008F9783 /* CoreLocation.framework */; };
+		4E2A11952155CD33008F9783 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2A11942155CD33008F9783 /* QuartzCore.framework */; };
+		4E2A11972155CD3D008F9783 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2A11962155CD3D008F9783 /* OpenGLES.framework */; };
+		4E2A11992155CD4B008F9783 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2A11982155CD4B008F9783 /* SystemConfiguration.framework */; };
+		4E2A119B2155CD58008F9783 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2A119A2155CD58008F9783 /* CoreGraphics.framework */; };
+		4E2A119D2155CDBD008F9783 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2A119C2155CDBD008F9783 /* Security.framework */; };
+		4E2A119F2155CDCD008F9783 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2A119E2155CDCC008F9783 /* libsqlite3.0.tbd */; };
+		4E2A11A12155CDDA008F9783 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2A11A02155CDDA008F9783 /* libc++.tbd */; };
+		4E2A11A32155CDEA008F9783 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2A11A22155CDEA008F9783 /* CoreTelephony.framework */; };
 		4E2C63811ED92AED00662764 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2C63801ED92AED00662764 /* LoadingView.m */; };
 		4E2C63841ED9521F00662764 /* SecondLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2C63831ED9521F00662764 /* SecondLoadingView.m */; };
 		4E2C63871ED9577300662764 /* KeyPathAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2C63861ED9577300662764 /* KeyPathAnimationViewController.m */; };
@@ -33,6 +42,12 @@
 		4E2C638D1ED96AF000662764 /* RegularPolygonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2C638C1ED96AF000662764 /* RegularPolygonViewController.m */; };
 		4E2C63901ED96D8C00662764 /* RegularPolygonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2C638F1ED96D8C00662764 /* RegularPolygonView.m */; };
 		4E2C63931ED96DAB00662764 /* RegularPolygonPointFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2C63921ED96DAB00662764 /* RegularPolygonPointFactory.m */; };
+		4EDD5EA3208C28BA007FB2C8 /* CustomScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD5EA2208C28BA007FB2C8 /* CustomScrollViewController.swift */; };
+		4EDD5EA6208C28DF007FB2C8 /* CustomScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD5EA5208C28DF007FB2C8 /* CustomScrollViewController.m */; };
+		4EDD5EA9208C2901007FB2C8 /* CustomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD5EA8208C2901007FB2C8 /* CustomScrollView.m */; };
+		4EDD5EAF208C3DDE007FB2C8 /* CustomTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD5EAE208C3DDE007FB2C8 /* CustomTableView.m */; };
+		4EDD5EB2208C3FAF007FB2C8 /* MyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD5EB1208C3FAF007FB2C8 /* MyLabel.m */; };
+		F5392D3C74A296AE3B880107 /* Pods_AnimationCollection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BFB7CB07A631E718F09A2CF /* Pods_AnimationCollection.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +69,7 @@
 
 /* Begin PBXFileReference section */
 		39240291B5EB24E2A6A6ED80 /* Pods-AnimationCollection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationCollection.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnimationCollection/Pods-AnimationCollection.debug.xcconfig"; sourceTree = "<group>"; };
-		3E2E5897D2ECA3BB68FB3BC1 /* libPods-AnimationCollection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AnimationCollection.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BFB7CB07A631E718F09A2CF /* Pods_AnimationCollection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimationCollection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E2960501EA062E800BA1E16 /* AnimationCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E2960541EA062E800BA1E16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4E2960561EA062E800BA1E16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -93,6 +108,16 @@
 		4E2960AB1EA09F6D00BA1E16 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
 		4E2960AD1EA0C7D200BA1E16 /* FreeDownAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeDownAnimation.h; sourceTree = "<group>"; };
 		4E2960AE1EA0C7D200BA1E16 /* FreeDownAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreeDownAnimation.m; sourceTree = "<group>"; };
+		4E2A11902155CD1B008F9783 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		4E2A11922155CD24008F9783 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4E2A11942155CD33008F9783 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4E2A11962155CD3D008F9783 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		4E2A11982155CD4B008F9783 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4E2A119A2155CD58008F9783 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4E2A119C2155CDBD008F9783 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4E2A119E2155CDCC008F9783 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		4E2A11A02155CDDA008F9783 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		4E2A11A22155CDEA008F9783 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		4E2C637F1ED92AED00662764 /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
 		4E2C63801ED92AED00662764 /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
 		4E2C63821ED9521F00662764 /* SecondLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondLoadingView.h; sourceTree = "<group>"; };
@@ -107,6 +132,16 @@
 		4E2C638F1ED96D8C00662764 /* RegularPolygonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegularPolygonView.m; sourceTree = "<group>"; };
 		4E2C63911ED96DAB00662764 /* RegularPolygonPointFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularPolygonPointFactory.h; sourceTree = "<group>"; };
 		4E2C63921ED96DAB00662764 /* RegularPolygonPointFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegularPolygonPointFactory.m; sourceTree = "<group>"; };
+		4EDD5EA1208C28BA007FB2C8 /* AnimationCollection-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnimationCollection-Bridging-Header.h"; sourceTree = "<group>"; };
+		4EDD5EA2208C28BA007FB2C8 /* CustomScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScrollViewController.swift; sourceTree = "<group>"; };
+		4EDD5EA4208C28DF007FB2C8 /* CustomScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomScrollViewController.h; sourceTree = "<group>"; };
+		4EDD5EA5208C28DF007FB2C8 /* CustomScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomScrollViewController.m; sourceTree = "<group>"; };
+		4EDD5EA7208C2901007FB2C8 /* CustomScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomScrollView.h; sourceTree = "<group>"; };
+		4EDD5EA8208C2901007FB2C8 /* CustomScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomScrollView.m; sourceTree = "<group>"; };
+		4EDD5EAD208C3DDE007FB2C8 /* CustomTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableView.h; sourceTree = "<group>"; };
+		4EDD5EAE208C3DDE007FB2C8 /* CustomTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableView.m; sourceTree = "<group>"; };
+		4EDD5EB0208C3FAF007FB2C8 /* MyLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLabel.h; sourceTree = "<group>"; };
+		4EDD5EB1208C3FAF007FB2C8 /* MyLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLabel.m; sourceTree = "<group>"; };
 		61BF6EB0420998ECDE6C7E2D /* Pods-AnimationCollection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationCollection.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnimationCollection/Pods-AnimationCollection.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,7 +150,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C4E1D8514BB84A8000CACE8 /* libPods-AnimationCollection.a in Frameworks */,
+				4E2A11A32155CDEA008F9783 /* CoreTelephony.framework in Frameworks */,
+				4E2A11A12155CDDA008F9783 /* libc++.tbd in Frameworks */,
+				4E2A119F2155CDCD008F9783 /* libsqlite3.0.tbd in Frameworks */,
+				4E2A119D2155CDBD008F9783 /* Security.framework in Frameworks */,
+				4E2A119B2155CD58008F9783 /* CoreGraphics.framework in Frameworks */,
+				4E2A11992155CD4B008F9783 /* SystemConfiguration.framework in Frameworks */,
+				4E2A11972155CD3D008F9783 /* OpenGLES.framework in Frameworks */,
+				4E2A11952155CD33008F9783 /* QuartzCore.framework in Frameworks */,
+				4E2A11932155CD24008F9783 /* CoreLocation.framework in Frameworks */,
+				4E2A11912155CD1B008F9783 /* MobileCoreServices.framework in Frameworks */,
+				F5392D3C74A296AE3B880107 /* Pods_AnimationCollection.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +275,10 @@
 				4E2C63861ED9577300662764 /* KeyPathAnimationViewController.m */,
 				4E2C638B1ED96AF000662764 /* RegularPolygonViewController.h */,
 				4E2C638C1ED96AF000662764 /* RegularPolygonViewController.m */,
+				4EDD5EA4208C28DF007FB2C8 /* CustomScrollViewController.h */,
+				4EDD5EA5208C28DF007FB2C8 /* CustomScrollViewController.m */,
+				4EDD5EA2208C28BA007FB2C8 /* CustomScrollViewController.swift */,
+				4EDD5EA1208C28BA007FB2C8 /* AnimationCollection-Bridging-Header.h */,
 			);
 			path = viewControllers;
 			sourceTree = "<group>";
@@ -247,6 +296,12 @@
 				4E2C63891ED9579D00662764 /* KeyPathAnimationView.m */,
 				4E2C638E1ED96D8C00662764 /* RegularPolygonView.h */,
 				4E2C638F1ED96D8C00662764 /* RegularPolygonView.m */,
+				4EDD5EA7208C2901007FB2C8 /* CustomScrollView.h */,
+				4EDD5EA8208C2901007FB2C8 /* CustomScrollView.m */,
+				4EDD5EAD208C3DDE007FB2C8 /* CustomTableView.h */,
+				4EDD5EAE208C3DDE007FB2C8 /* CustomTableView.m */,
+				4EDD5EB0208C3FAF007FB2C8 /* MyLabel.h */,
+				4EDD5EB1208C3FAF007FB2C8 /* MyLabel.m */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -304,7 +359,17 @@
 		F49BDB87E311EF54C6B76A31 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3E2E5897D2ECA3BB68FB3BC1 /* libPods-AnimationCollection.a */,
+				4E2A11A22155CDEA008F9783 /* CoreTelephony.framework */,
+				4E2A11A02155CDDA008F9783 /* libc++.tbd */,
+				4E2A119E2155CDCC008F9783 /* libsqlite3.0.tbd */,
+				4E2A119C2155CDBD008F9783 /* Security.framework */,
+				4E2A119A2155CD58008F9783 /* CoreGraphics.framework */,
+				4E2A11982155CD4B008F9783 /* SystemConfiguration.framework */,
+				4E2A11962155CD3D008F9783 /* OpenGLES.framework */,
+				4E2A11942155CD33008F9783 /* QuartzCore.framework */,
+				4E2A11922155CD24008F9783 /* CoreLocation.framework */,
+				4E2A11902155CD1B008F9783 /* MobileCoreServices.framework */,
+				3BFB7CB07A631E718F09A2CF /* Pods_AnimationCollection.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -379,6 +444,7 @@
 				TargetAttributes = {
 					4E29604F1EA062E800BA1E16 = {
 						CreatedOnToolsVersion = 8.3.1;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					4E2960681EA062E800BA1E16 = {
@@ -495,13 +561,17 @@
 			files = (
 				4E2960AF1EA0C7D200BA1E16 /* FreeDownAnimation.m in Sources */,
 				4E2C63901ED96D8C00662764 /* RegularPolygonView.m in Sources */,
+				4EDD5EAF208C3DDE007FB2C8 /* CustomTableView.m in Sources */,
 				4E2C63811ED92AED00662764 /* LoadingView.m in Sources */,
 				4E2C63931ED96DAB00662764 /* RegularPolygonPointFactory.m in Sources */,
 				4E2960A51EA082FD00BA1E16 /* SuperViewController.m in Sources */,
 				4E2C63841ED9521F00662764 /* SecondLoadingView.m in Sources */,
 				4E2C63871ED9577300662764 /* KeyPathAnimationViewController.m in Sources */,
 				4E29609F1EA082B400BA1E16 /* FreeDownViewController.m in Sources */,
+				4EDD5EA6208C28DF007FB2C8 /* CustomScrollViewController.m in Sources */,
+				4EDD5EA3208C28BA007FB2C8 /* CustomScrollViewController.swift in Sources */,
 				4E29608F1EA074BD00BA1E16 /* MainCell.m in Sources */,
+				4EDD5EA9208C2901007FB2C8 /* CustomScrollView.m in Sources */,
 				4E29605B1EA062E800BA1E16 /* ViewController.m in Sources */,
 				4E2C638D1ED96AF000662764 /* RegularPolygonViewController.m in Sources */,
 				4E2960921EA074DA00BA1E16 /* MainModel.m in Sources */,
@@ -509,6 +579,7 @@
 				4E2960A21EA082DD00BA1E16 /* LoadRateViewController.m in Sources */,
 				4E2960581EA062E800BA1E16 /* AppDelegate.m in Sources */,
 				4E2960551EA062E800BA1E16 /* main.m in Sources */,
+				4EDD5EB2208C3FAF007FB2C8 /* MyLabel.m in Sources */,
 				4E29609C1EA07ADA00BA1E16 /* MainView.m in Sources */,
 				4E29608C1EA0745300BA1E16 /* MainViewController.m in Sources */,
 				4E2960961EA0778E00BA1E16 /* HPUITools.m in Sources */,
@@ -664,11 +735,28 @@
 			baseConfigurationReference = 39240291B5EB24E2A6A6ED80 /* Pods-AnimationCollection.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AnimationCollection/libs/BaiduMapAPI",
+				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_PREFIX_HEADER = AnimationCollection/PrefixHeader.pch;
 				INFOPLIST_FILE = AnimationCollection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AnimationCollection/libs/lame",
+					"$(PROJECT_DIR)/AnimationCollection/libs/BaiduMapAPI/thirdlibs",
+					"$(PROJECT_DIR)/AnimationCollection/libs",
+					"$(PROJECT_DIR)/AnimationCollection/libs/JPush",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = limingfeng.com.AnimationCollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AnimationCollection/viewControllers/AnimationCollection-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -677,17 +765,34 @@
 			baseConfigurationReference = 61BF6EB0420998ECDE6C7E2D /* Pods-AnimationCollection.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AnimationCollection/libs/BaiduMapAPI",
+				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_PREFIX_HEADER = AnimationCollection/PrefixHeader.pch;
 				INFOPLIST_FILE = AnimationCollection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AnimationCollection/libs/lame",
+					"$(PROJECT_DIR)/AnimationCollection/libs/BaiduMapAPI/thirdlibs",
+					"$(PROJECT_DIR)/AnimationCollection/libs",
+					"$(PROJECT_DIR)/AnimationCollection/libs/JPush",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = limingfeng.com.AnimationCollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AnimationCollection/viewControllers/AnimationCollection-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		4E2960811EA062E900BA1E16 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AnimationCollectionTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -700,6 +805,7 @@
 		4E2960821EA062E900BA1E16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AnimationCollectionTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -712,6 +818,7 @@
 		4E2960841EA062E900BA1E16 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = AnimationCollectionUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = limingfeng.com.AnimationCollectionUITests;
@@ -723,6 +830,7 @@
 		4E2960851EA062E900BA1E16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = AnimationCollectionUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = limingfeng.com.AnimationCollectionUITests;

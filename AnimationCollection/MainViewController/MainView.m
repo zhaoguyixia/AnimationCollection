@@ -68,7 +68,7 @@
     {
         [cell config:[self.dataSource objectAtIndex:indexPath.row]];
     }
-    cell.selectionStyle = 0;
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath

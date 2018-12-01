@@ -17,11 +17,11 @@
     }
     return self;
 }
-- (instancetype)initWith:(id)class
+- (instancetype)initWith:(id)oc_class
 {
     if (self = [super init])
     {
-        self.className = [class className];
+        self.className = [oc_class className];
     }
     return self;
 }
